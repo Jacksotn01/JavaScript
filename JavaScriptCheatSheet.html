@@ -45,6 +45,18 @@
    document.getElementById("practice").innerHTML = "Practice Makes Perfect";
    }
 
+   function addNumbers (numberOne, numberTwo){ return numberOne + 28 + numberTwo;
+   }
+
+   console.log(addNumbers(8,20));
+   console.log(addNumbers (10,2));
+
+   function sayHello (firstName) {
+    return alert("hello "+ firstName);
+   }
+
+   sayHello("Tiffany");
+
 
 
     // multi-dimensional array
@@ -80,6 +92,53 @@
    var Dale = { age: 27, sex: "Female", favcolor: "Green" };
 
    console.log (Dale);
+
+   // Examples of dot notation 
+   console.log (Dale.age);
+
+   // Bracket notation 
+   console.log (Dale["sex"]);
+
+   // Combining strings 
+
+   var string1 = "I love ";
+   var string2 = "Jerry";
+
+   var result = string1 + string2;
+
+   console.log(result);
+
+   // if and else statements 
+
+   var age = 20;
+
+   if (age < 21) {
+    alert("CAN NOT ENTER");
+   } else {
+      alert("Welcome :)");
+   }
+
+   var num = 115;
+
+   if (num < 50) {
+    console.log("number is less than 50")
+   } else {
+    console.log("number is greater than 50")
+   }
+
+   console.log(num)
+
+   // else if statements 
+
+   var age = 10;
+
+   if (age === 2) {
+      console.log("youngin'");
+    } else if (age === 16) {
+      console.log("teenager");
+    } else {
+      console.log("adult");
+    }
 
    </script>
    
