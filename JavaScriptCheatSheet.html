@@ -6,7 +6,9 @@
   </title>
   </head> 
     <!--html practice --> 
-    <p id="practice"></p>
+    <div oneclick="change()" id="practice"> Practice with Change Function </div>
+
+    <p id="hello"></p>
 
     <body>
 
@@ -31,13 +33,19 @@
 
    // Practice Alerts
 
+   document.getElementById("hello").innerHTML = "hello world";
+
    alert("Dont Stop Believing");
    alert("Tiffany You Got This");
    alert("I Love To Travel & Jerry");
 
-   // html practice
+   // Change Function Practice 
 
+   function change(){
    document.getElementById("practice").innerHTML = "Practice Makes Perfect";
+   }
+
+
 
     // multi-dimensional array
 
@@ -50,10 +58,9 @@
 
     console.log(hollywood[1][1]);
 
-   // Change Function Practice 
+   
 
    </script>
-
    
     </body>
 </html>
