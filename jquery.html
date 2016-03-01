@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <title> jQuery Practice </title>
+  
+  <link rel="stylesheet" type="text/css" href="JQuery.css">
+   
+   <script src="JQuery.js"></script>
+
+   </head>
+    
+    <body>
+      
+
+      <h1> Learning jQuery is Cool</h1>
+
+      <p class="first"> jQuery is a new technique that I am currently learning about at New York Code & Design Academy. I am really interested in redoing my old web pages to reflect my new found knowledge. </p>
+
+      <p class="style"> Learning can be a challenge, but anything worth having is worth working for. LONG LIVE THE POWER OF LEARN </p>
+
+      <div class="gray"> </div>
+
+      <div class="white"> </div>
+
+      <h3> Practice Makes Perfect </h3>
+
+      <h4> DON'T STOP BELIEVING </h4>
+
+      <script>
+
+        // ensures the page is ready for your jQuery
+        $(document).ready(function () {
+          // Adding an html element here would create a callback
+
+          $("h1").slideUp(5000, function () {
+
+          }) 
+
+          $("h4").hide(6000, function () {
+
+          })
+
+          $("h3").fadeOut(10000, function () {
+
+          })
+
+          $(".white").slideUp(6000, function () {
+          })
+
+          $(".first").animate( { 
+            opacity: 0.25,
+            width: "70%"
+          }, 3000 );
+
+          $(".style").click(
+            function(){
+              alert("jQuery is Cool, I hope you are enjoying it :)");
+             }
+            );
+
+          // Adding an html element here would result in whatever change I am making to happen at the same time 
+
+        })
+
+        alert("Welcome World :)");
+        alert("I love You Jerry, Thank You for always supporting me :)");
+
+
+
+
+      </script>
+
+    </body>
+</html>
