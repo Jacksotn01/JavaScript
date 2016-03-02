@@ -23,6 +23,8 @@
 
       <div class="white"> </div>
 
+      <div class="practice"> </div>
+
       <h3> Practice Makes Perfect </h3>
 
       <h4> DON'T STOP BELIEVING </h4>
@@ -49,7 +51,7 @@
           })
 
           $(".first").animate( { 
-            opacity: 0.25,
+            opacity: 0.50,
             width: "70%"
           }, 3000 );
 
@@ -57,7 +59,15 @@
             function(){
               alert("jQuery is Cool, I hope you are enjoying it :)");
              }
-            );
+            ); 
+
+          // Confused on why the structure of a click event is setup like this 
+
+          $(".practice").show( function () {
+            $(".practice").animate( {opacity: 0.60})
+          })
+
+          // I don't fully understand this function
 
           // Adding an html element here would result in whatever change I am making to happen at the same time 
 

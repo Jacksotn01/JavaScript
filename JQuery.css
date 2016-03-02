@@ -1,0 +1,51 @@
+h1 {
+  color: white;
+  font-size: 25px;
+}
+
+body {
+ background-color: pink;
+}
+
+.gray {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  border-style: dotted;
+  border-color: white;
+}
+.first {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+.style {
+  text-align: center;
+  font-size: 20px;
+  color: skyblue;
+  border-style: dotted;
+  border-color: gray;
+  text-transform: uppercase;
+}
+ 
+.white {
+ background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-style: dotted;
+  border-color: skyblue; 
+}
+
+.practice {
+  background-color: purple;
+  padding: 40px;
+  margin: 40px;
+  border-style: dotted;
+  border-color: white; 
+}
+
+h4 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
